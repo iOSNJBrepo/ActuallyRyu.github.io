@@ -8,7 +8,7 @@ Section: Widgets
 Description: HS Widget for XenHTML/SBHTML
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.wdg006.deb
-Depictions: ./depictions/?p=com.ryu.wdg006
+Depictions: ./depictions/com.ryu.wdg006
 Size: 20040
 MD5Sum: 11bc55385305be7f6785e5aacca7aaa0
 
