@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow me on Twitter</name>
+			<url>https://twitter.com/ActuallyRyu3</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+		<link>
+			<name>Donate me via PayPal</name>
+			<url>https://paypal.me/actualryu</url>
+			<iconclass>fa fa-paypal</iconclass>
+		</link>
+	</footerlinks>
+</repo>
