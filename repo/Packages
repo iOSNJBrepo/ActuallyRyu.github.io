@@ -1,0 +1,14 @@
+Package: com.ryu.wdg006
+Name: HS.Ryu_006 Fluid Widget
+Version: 1.0.8
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Widgets
+Description: HS Widget for XenHTML/SBHTML
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.wdg006.deb
+Depiction: https://actuallyryu.me/cydia/depictions/?p=com.ryu.wdg006
+Size: 20040
+MD5Sum: 11bc55385305be7f6785e5aacca7aaa0
+
