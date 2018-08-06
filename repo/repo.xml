@@ -6,8 +6,13 @@
 			<iconclass>fa fa-twitter</iconclass>
 		</link>
 		<link>
+			<name>Send me an Email</name>
+			<url>mailto:actuallyryu@gmail.com</url>
+			<iconclass>fa fa-envelope</iconclass>
+		</link>
+		<link>
 			<name>Donate me via PayPal</name>
-			<url>https://paypal.me/actualryu</url>
+			<url>https://www.paypal.me/actuallyryu</url>
 			<iconclass>fa fa-paypal</iconclass>
 		</link>
 	</footerlinks>
