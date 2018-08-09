@@ -27,7 +27,7 @@ Size: 42314
 MD5Sum: 83f4706d442b39326347b50aeeb759fc
 
 Package: com.ryu.tunneloflight
-Name: XenStatus
+Name: Tunnel of Light
 Version: 1.0
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
