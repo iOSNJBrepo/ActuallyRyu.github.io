@@ -10,18 +10,21 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
-	<shortDescription>This is a Tunnel of Light HS and LS Wallpaper!</shortDescription>
+	<shortDescription>This is a Tunnel of Light Wallpaper for HS and LS!</shortDescription>
 	<descriptionlist>
-		<description>This is a Tunnel of Light HS and LS Wallpaper!</description>
+		<description>This is a Tunnel of Light Wallpaper for HS and LS!</description>
 		<description>It's available for both HS and LS!</description>
-		<description>Please do move the wallpaper around a bit when applying via XenHTML to fit the screen. It won't be hard.
+		<description>Please move the wallpaper around to fit the screen.
 		</description>
 	</descriptionlist>
 	<screenshots>
-		<video width="device-width" controls>
-			<source src="screenshots\preview.mp4" type="video/mp4">
-				Your browser does not support HTML5 video.
-		</video>
+		<screenshot>
+			<description>This is how it'll look like. </description>
+			<video width="device-width" controls>
+				<source src="screenshots/preview.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+		</screenshot>	
 	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
