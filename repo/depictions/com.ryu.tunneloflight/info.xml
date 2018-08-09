@@ -20,16 +20,8 @@
 	<screenshots>
 		<screenshot>
 			<description>This is how it'll look like. </description>
-			<image>Status.jpg</image>
+			<image>preview.gif</image>
 		</screenshot>	
-		<screenshot>
-			<description>This is how it'll look like on LS </description>
-			<image>LS.png</image>
-		</screenshot>
-		<screenshot>
-			<description>This is how it'll look like on HS. </description>
-			<image>HS.png</image>
-		</screenshot>
 	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
