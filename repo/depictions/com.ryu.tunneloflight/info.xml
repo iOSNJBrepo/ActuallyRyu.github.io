@@ -1,6 +1,6 @@
 <package>
-	<id>com.ryu.xenstatus</id>
-	<name>XenStatus</name>
+	<id>com.ryu.tunneloflight</id>
+	<name>Tunnel of Light</name>
 	<version>1.0</version>
 	<compatibility>
 		<firmware>
@@ -10,26 +10,18 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
-	<shortDescription>This is a Status Bar for XenHTML with all the details you need to know!</shortDescription>
+	<shortDescription>This is a Tunnel of Light HS and LS Wallpaper!</shortDescription>
 	<descriptionlist>
-		<description>This is a Status Bar for XenHTML with all the details you need to know!</description>
+		<description>This is a Tunnel of Light HS and LS Wallpaper!</description>
 		<description>It's available for both HS and LS!</description>
-		<description>Make sure to hide your statusbars or it'll look weird.
+		<description>Please do move the wallpaper around a bit when applying via XenHTML to fit the screen. It won't be hard.
 		</description>
 	</descriptionlist>
 	<screenshots>
-		<screenshot>
-			<description>This is how it'll look like. </description>
-			<image>Status.jpg</image>
-		</screenshot>	
-		<screenshot>
-			<description>This is how it'll look like on LS </description>
-			<image>LS.png</image>
-		</screenshot>
-		<screenshot>
-			<description>This is how it'll look like on HS. </description>
-			<image>HS.png</image>
-		</screenshot>
+		<video width="device-width" controls>
+			<source src="screenshots\preview.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.
+		</video>
 	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
