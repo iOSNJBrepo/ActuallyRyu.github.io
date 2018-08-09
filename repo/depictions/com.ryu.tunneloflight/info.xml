@@ -1,6 +1,6 @@
 <package>
-	<id>com.ryu.tunneloflight</id>
-	<name>Tunnel of Light</name>
+	<id>com.ryu.xenstatus</id>
+	<name>XenStatus</name>
 	<version>1.0</version>
 	<compatibility>
 		<firmware>
@@ -10,11 +10,11 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
-	<shortDescription>This is Tunnel of Light wallpaper for both HS and LS!</shortDescription>
+	<shortDescription>This is a Status Bar for XenHTML with all the details you need to know!</shortDescription>
 	<descriptionlist>
 		<description>This is a Status Bar for XenHTML with all the details you need to know!</description>
 		<description>It's available for both HS and LS!</description>
-		<description>Make sure to move around a bit to fit to screen.
+		<description>Make sure to hide your statusbars or it'll look weird.
 		</description>
 	</descriptionlist>
 	<screenshots>
