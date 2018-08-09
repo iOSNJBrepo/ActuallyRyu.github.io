@@ -26,3 +26,17 @@ Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.xenstatus
 Size: 42314
 MD5Sum: 83f4706d442b39326347b50aeeb759fc
 
+Package: com.ryu.tunneloflight
+Name: XenStatus
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Widgets
+Description: Tunnel of Light - HS and LS Wallpaper!
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.tunneloflight.deb
+Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.tunneloflight
+Size: 10599098
+MD5Sum: e3a6a5e876cb631f17fe3cf470009f7b
+
