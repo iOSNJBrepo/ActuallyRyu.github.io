@@ -12,3 +12,17 @@ Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.wdg006
 Size: 20040
 MD5Sum: 11bc55385305be7f6785e5aacca7aaa0
 
+Package: com.ryu.xenstatus
+Name: XenStatus
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Widgets
+Description: A New StatusBar! Apply via XenHTML
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.xenstatus.deb
+Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.xenstatus
+Size: 42314
+MD5Sum: 83f4706d442b39326347b50aeeb759fc
+
