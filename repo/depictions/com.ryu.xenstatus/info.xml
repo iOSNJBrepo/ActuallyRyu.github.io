@@ -1,7 +1,7 @@
 <package>
-	<id>com.ryu.xenstatus</id>
-	<name>XenStatus</name>
-	<version>1.0</version>
+	<id>com.ryu.wdg006</id>
+	<name>HS.Ryu006 Fluid Widget</name>
+	<version>1.0.8</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -10,28 +10,21 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
-	<shortDescription>This is a Status Bar for XenHTML that gives you all details you need!</shortDescription>
+	<shortDescription>This is a XenHTML Wallpaper that reacts to your touches!</shortDescription>
 	<descriptionlist>
-		<description>This is a Status Bar for XenHTML that gives you all details you need!</description>
-		<description>It's available for both LS and HS. </br>You can move it around but it's best to place it in Status Bar area. </br>Make sure to hide your status bar first using SpringPlus tho or it won't look good.</description>
-		<description></description>
+		<description>This is a XenHTML Wallpaper that reacts to your touches!</description>
+		<description>It's only for HOMESCREEN as on LOCKSCREEN it's glitchy.</description>
+		<description>A Transparent version is also included!
+		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>This is what you'll be getting.</description>
-			<image>Status.jpg</image>
-		</screenshot>			
-		<screenshot>
-			<description>This is how it'll look like on LS.</description>
-			<image>LS.png</image>
-		</screenshot>	
-		<screenshot>
-			<description>This is how it'll look like on HS.</description>
-			<image>HS.png</image>
-		</screenshot>		
+			<description>This is how it'll look like. </description>
+			<image>preview.gif</image>
+		</screenshot>				
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Fixed Permission Issues</change>
 	</changelog>
 	<links>
 		<link>
