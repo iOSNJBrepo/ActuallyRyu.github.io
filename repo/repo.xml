@@ -15,10 +15,5 @@
 			<url>https://www.paypal.me/actualryu</url>
 			<iconclass>fa fa-paypal</iconclass>
 		</link>
-		<link>
-			<name>My repo for paid stuffs</name>
-			<url>https://ryu.yourepo.com</url>
-			<iconclass>fa fa-coins</iconclass>
-		</link>
 	</footerlinks>
 </repo>
