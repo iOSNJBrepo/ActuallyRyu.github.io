@@ -21,6 +21,10 @@
 		<screenshot>
 			<description>This is how it'll look like. </description>
 			<image>Status.jpg</image>
+			<video width="320" height="240" controls>
+			<source src="preview.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 		</screenshot>	
 		<screenshot>
 			<description>This is how it'll look like on LS </description>
