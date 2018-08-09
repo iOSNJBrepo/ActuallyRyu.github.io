@@ -1,7 +1,7 @@
 <package>
-	<id>com.ryu.wdg006</id>
-	<name>HS.Ryu006 Fluid Widget</name>
-	<version>1.0.8</version>
+	<id>com.ryu.xenstatus</id>
+	<name>XenStatus</name>
+	<version>1.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -10,21 +10,29 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
-	<shortDescription>This is a XenHTML Wallpaper that reacts to your touches!</shortDescription>
+	<shortDescription>This is a Status Bar for XenHTML with all the details you need to know!</shortDescription>
 	<descriptionlist>
-		<description>This is a XenHTML Wallpaper that reacts to your touches!</description>
-		<description>It's only for HOMESCREEN as on LOCKSCREEN it's glitchy.</description>
-		<description>A Transparent version is also included!
+		<description>This is a Status Bar for XenHTML with all the details you need to know!</description>
+		<description>It's available for both HS and LS!</description>
+		<description>Make sure to hide your statusbars or it'll look weird.
 		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
 			<description>This is how it'll look like. </description>
-			<image>preview.gif</image>
-		</screenshot>				
+			<image>Status.jpg</image>
+		</screenshot>	
+		<screenshot>
+			<description>This is how it'll look like on LS </description>
+			<image>LS.png</image>
+		</screenshot>
+		<screenshot>
+			<description>This is how it'll look like on HS. </description>
+			<image>HS.png</image>
+		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed Permission Issues</change>
+		<change>Initial Release</change>
 	</changelog>
 	<links>
 		<link>
