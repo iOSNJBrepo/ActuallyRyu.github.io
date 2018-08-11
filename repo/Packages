@@ -42,7 +42,7 @@ MD5Sum: e3a6a5e876cb631f17fe3cf470009f7b
 
 Package: com.ryu.dreamerhd
 Name: Dreamer HD
-Version: 1.0
+Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
@@ -56,7 +56,7 @@ MD5Sum: 519fe2e9327e2feb53675baad41af78b
 
 Package: com.ryu.dreamersd
 Name: Dreamer SD
-Version: 1.0
+Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
@@ -70,7 +70,7 @@ MD5Sum: b51ce56d10ad8bd5fff91d87d9f083a7
 
 Package: com.ryu.dreamerhdx
 Name: Dreamer HD X
-Version: 1.0
+Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
@@ -88,7 +88,7 @@ Version: 1.0
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
-Section: Widgets
+Section: System
 Description: Repo Icons for Ryu's Repo
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.repoicons.deb
