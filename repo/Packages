@@ -51,8 +51,8 @@ Description: Dreamer HD - HS and LS Wallpaper!
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.dreamerhd.deb
 Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.dreamerhd
-Size: 27435682
-MD5Sum: eea4b8bd4ddfc27966edb4c4fbcd5ed3
+Size: 27494514
+MD5Sum: 519fe2e9327e2feb53675baad41af78b
 
 Package: com.ryu.dreamersd
 Name: Dreamer SD
@@ -65,11 +65,11 @@ Description: Dreamer SD - HS and LS Wallpaper!
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.dreamersd.deb
 Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.dreamersd
-Size: 9884366
-MD5Sum: 5e3aa8d77be91bc84d6e5ecad95b442e
+Size: 9941972
+MD5Sum: b51ce56d10ad8bd5fff91d87d9f083a7
 
 Package: com.ryu.dreamerhdx
-Name: Dreamer SD
+Name: Dreamer HD X
 Version: 1.0
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
@@ -80,4 +80,19 @@ Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.dreamerhdx.deb
 Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.dreamerhdx
 Size: 27435434
-MD5Sum: 488c38a28e8503a286fe928498383dbe
+MD5Sum: be1557959ff156cf08d33b3e1973aa74
+
+Package: com.ryu.repoicons
+Name: Ryu's Repo Icons
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Widgets
+Description: Repo Icons for Ryu's Repo
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.repoicons.deb
+Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.repoicons
+Size: 108162
+MD5Sum: da63f4c5cd34112c1e8f9e7ca1305349
+

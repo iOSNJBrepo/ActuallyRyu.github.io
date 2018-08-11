@@ -1,7 +1,7 @@
 <package>
 	<id>com.ryu.dreamerhdx</id>
 	<name>Dreamer HD X</name>
-	<version>1.0</version>
+	<version>1.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>11.0</miniOS>
@@ -26,7 +26,7 @@
 		</screenshot>	
 	</screenshots>
 	<changelog>
-		<change>Initial Release</change>
+		<change>Added a Wallpaper</change>
 	</changelog>
 	<links>
 		<link>

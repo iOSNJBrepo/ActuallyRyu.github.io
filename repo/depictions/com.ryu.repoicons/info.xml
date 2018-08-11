@@ -1,0 +1,36 @@
+<package>
+	<id>com.ryu.repoicons</id>
+	<name>Ryu's Repo Icons</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>Ryu's Repo icons</shortDescription>
+	<descriptionlist>
+		<description>Ryu's Repo icons</description>
+		<description>This is to fill out question mark icons from Ryu's Repo</description>
+		<description>Not necessary but better to install this
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>No Screenshot Available</description>
+			<image></image>
+		</screenshot>				
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
