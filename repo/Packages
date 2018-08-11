@@ -40,3 +40,31 @@ Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.tunnelofligh
 Size: 10599098
 MD5Sum: e3a6a5e876cb631f17fe3cf470009f7b
 
+Package: com.ryu.dreamerhd
+Name: Dreamer HD
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Widgets
+Description: Dreamer HD - HS and LS Wallpaper!
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.dreamerhd.deb
+Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.dreamerhd
+Size: 27435682
+MD5Sum: eea4b8bd4ddfc27966edb4c4fbcd5ed3
+
+Package: com.ryu.dreamersd
+Name: Dreamer SD
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Widgets
+Description: Dreamer SD - HS and LS Wallpaper!
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.dreamersd.deb
+Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.dreamersd
+Size: 9884366
+MD5Sum: 5e3aa8d77be91bc84d6e5ecad95b442e
+
