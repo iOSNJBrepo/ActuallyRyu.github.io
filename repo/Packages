@@ -75,7 +75,7 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
 Section: Widgets
-Description: Dreamer SD - HS and LS Wallpaper!
+Description: Dreamer HD X - HS and LS Wallpaper for iPX!
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.dreamerhdx.deb
 Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.dreamerhdx
