@@ -4,7 +4,7 @@ Version: 1.0.8
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
-Section: Widgets
+Section: XenHTML Wallpapers
 Description: HS Widget for XenHTML/SBHTML
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.wdg006.deb
@@ -32,7 +32,7 @@ Version: 1.0
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
-Section: Widgets
+Section: XenHTML Wallpapers
 Description: Tunnel of Light - HS and LS Wallpaper!
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.tunneloflight.deb
@@ -46,7 +46,7 @@ Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
-Section: Widgets
+Section: XenHTML Wallpapers
 Description: Dreamer HD - HS and LS Wallpaper!
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.dreamerhd.deb
@@ -60,7 +60,7 @@ Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
-Section: Widgets
+Section: XenHTML Wallpapers
 Description: Dreamer SD - HS and LS Wallpaper!
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.dreamersd.deb
@@ -74,7 +74,7 @@ Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
-Section: Widgets
+Section: XenHTML Wallpapers
 Description: Dreamer HD X - HS and LS Wallpaper for iPX!
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.dreamerhdx.deb
