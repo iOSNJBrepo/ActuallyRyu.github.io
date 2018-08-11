@@ -68,3 +68,16 @@ Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.dreamersd
 Size: 9884366
 MD5Sum: 5e3aa8d77be91bc84d6e5ecad95b442e
 
+Package: com.ryu.dreamerhdx
+Name: Dreamer SD
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Widgets
+Description: Dreamer SD - HS and LS Wallpaper!
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.dreamerhdx.deb
+Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.dreamerhdx
+Size: 27435434
+MD5Sum: 488c38a28e8503a286fe928498383dbe
