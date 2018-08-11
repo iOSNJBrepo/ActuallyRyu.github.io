@@ -1,6 +1,6 @@
 <package>
-	<id>com.ryu.dreamerhd</id>
-	<name>Dreamer HD</name>
+	<id>com.ryu.dreamersd</id>
+	<name>Dreamer SD</name>
 	<version>1.0</version>
 	<compatibility>
 		<firmware>
