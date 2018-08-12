@@ -96,3 +96,16 @@ Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.repoicons
 Size: 108162
 MD5Sum: da63f4c5cd34112c1e8f9e7ca1305349
 
+Package: com.ryu.tunneloflightx
+Name: Tunnel of Light X
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: XenHTML Wallpapers
+Description: Tunnel of Light X - HS and LS Wallpaper!
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.tunneloflightx.deb
+Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.tunneloflightx
+Size: 10598356
+MD5Sum: de17de2cc70227a2410b633027111ecc
