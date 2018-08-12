@@ -93,8 +93,8 @@ Description: Repo Icons for Ryu's Repo
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.repoicons.deb
 Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.repoicons
-Size: 108162
-MD5Sum: da63f4c5cd34112c1e8f9e7ca1305349
+Size: 188008
+MD5Sum: f1eac3e403e5fa73bf50976f23695201
 
 Package: com.ryu.tunneloflightx
 Name: Tunnel of Light X
