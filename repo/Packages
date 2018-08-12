@@ -84,7 +84,7 @@ MD5Sum: be1557959ff156cf08d33b3e1973aa74
 
 Package: com.ryu.repoicons
 Name: Ryu's Repo Icons
-Version: 1.0
+Version: 1.1
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
@@ -109,3 +109,17 @@ Filename: ./debs/com.ryu.tunneloflightx.deb
 Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.tunneloflightx
 Size: 10598356
 MD5Sum: de17de2cc70227a2410b633027111ecc
+
+Package: com.ryu.slicingball
+Name: Sicing Ball Respring Logos
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Respring Logos
+Description: Slicing Ball - Respring logo
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.slicingball.deb
+Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.slicingball
+Size: 330986
+MD5Sum: 04780c2094ac07cb267c44e49ffa2523

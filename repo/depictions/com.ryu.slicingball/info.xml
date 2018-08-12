@@ -1,0 +1,38 @@
+<package>
+	<id>com.ryu.slicingball</id>
+	<name>Slicing Ball</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>Slicing Ball respring logo</shortDescription>
+	<descriptionlist>
+		<description>Slicing Ball respring logo</description>
+		<description> <![CDATA[
+		You need Anemone! Obviously!<br/> 
+		Apply it via Anemone.
+		]]></description>
+		
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>This is how it'll look like. </description>
+			<image>preview.gif</image>
+		</screenshot>	
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
