@@ -1,0 +1,38 @@
+<package>
+	<id>com.ryu.dreamerhd</id>
+	<name>Dreamer HD</name>
+	<version>1.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<shortDescription>Dreamer HD Wallpaper for XenHTML!</shortDescription>
+	<descriptionlist>
+		<description>Dreamer HD Wallpaper for XenHTML and it's available for both HS and LS!</description>
+		<description> <![CDATA[
+		It's available for both HS and LS!<br/> 
+		The quality is as high as the mp4!
+		]]></description>
+		
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>This is how it'll look like. </description>
+			<image>preview.gif</image>
+		</screenshot>	
+	</screenshots>
+	<changelog>
+		<change>Added a wallpaper</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
