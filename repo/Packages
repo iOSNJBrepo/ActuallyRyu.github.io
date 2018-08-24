@@ -123,3 +123,17 @@ Filename: ./debs/com.ryu.slicingball.deb
 Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.slicingball
 Size: 330986
 MD5Sum: 04780c2094ac07cb267c44e49ffa2523
+
+Package: com.ryu.mind
+Name: Mind
+Version: 1.1
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Themes
+Description: Mind - Icon Pack
+Maintainer: Ryu  <actuallyryu@gmail.com>
+Filename: ./debs/com.ryu.mind.deb
+Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.mind
+Size: 730212
+MD5Sum: 9934ecdce3d609e29cb27d412575d3b7
