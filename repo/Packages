@@ -126,7 +126,7 @@ MD5Sum: 04780c2094ac07cb267c44e49ffa2523
 
 Package: com.ryu.mind
 Name: Mind
-Version: 1.1
+Version: 1.2
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Author: Ryu
@@ -135,5 +135,5 @@ Description: Mind - Icon Pack
 Maintainer: Ryu  <actuallyryu@gmail.com>
 Filename: ./debs/com.ryu.mind.deb
 Depiction: https://actuallyryu.github.io/repo/depictions/?p=com.ryu.mind
-Size: 730212
-MD5Sum: 9934ecdce3d609e29cb27d412575d3b7
+Size: 741238
+MD5Sum: e356c73d68caeb7b7a201fa1dc9fbf07
