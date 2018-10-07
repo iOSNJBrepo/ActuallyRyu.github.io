@@ -22,7 +22,7 @@
 .card {
   position: relative;
   height: 45vh;
-  width: 100%;
+  width: 100vw;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
