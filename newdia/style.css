@@ -38,7 +38,7 @@
 }
 @media (min-width: 40em) {
   .card__header {
-    height: 25em;
+    height: 35em;
   }
 }
 @media (min-width: 80em) {
@@ -155,6 +155,7 @@
 body {
   padding: 2em;
   line-height: 1.4;
+  
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
