@@ -15,7 +15,7 @@
   position: relative;
   padding: 15px 15px 20px;
   padding-bottom: calc(20px + env(safe-area-inset-bottom)); /* For iPhone X */
-  max-width: 400px;
+  max-width: 1000px;
   margin: auto;
 }
 
