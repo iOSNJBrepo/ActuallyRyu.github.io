@@ -1,0 +1,180 @@
+$transition-duration: 0.5s;
+
+.card {
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 0.5em 3em rgba(0, 0, 0, 0.4);
+  border-radius: 0.5em;
+  transition: top, left, width, height, border-radius;
+  transition-duration: $transition-duration;
+  transition-timing-function: ease-in-out;
+  background: #fff;
+  cursor: pointer;
+  
+  &.is-zoomed {
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: scroll;
+    cursor: default;
+    border-radius: 0;
+    
+    @media (min-width: 60em) {
+      top: 3em !important;
+      left: calc((100vw - 60em) / 2) !important;
+      width: 60em !important;
+      height: calc(100vh - 3em) !important;
+      border-top-right-radius: 0.5em;
+      border-top-left-radius: 0.5em;
+    }
+  }
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 20em;
+  background-size: cover;
+  
+  @media (min-width: 40em) {
+    height: 25em;
+  }
+  
+  @media (min-width: 80em) {
+    height: 30em;
+  }
+}
+
+.card__caption {
+  padding: 1em 1.5em;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.card__title {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.card__sub-title {
+  margin-top: 0.25em;
+  font-size: 0.85em;
+  font-weight: 400;
+  color: #666;
+}
+
+.card__body {
+  max-height: 0;
+  overflow: hidden;
+  
+  .is-zoomed & {
+    max-height: 100%;
+  }
+}
+
+.card__text {
+  padding: 1.5em;
+}
+
+.card__close {
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0;
+  position: absolute;
+  display: none;
+  top: 1em;
+  right: 1em;
+  border: none;
+  text-indent: -999em;
+  background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20x%3D%220%22%20y%3D%220%22%20viewBox%3D%220%200%2032%2032%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M21.7%2010.3c-0.4-0.4-1-0.4-1.4%200l-4.3%204.3-4.2-4.2c-0.4-0.4-1-0.4-1.4%200-0.4%200.4-0.4%201%200%201.4l4.2%204.2-4.3%204.3c-0.4%200.4-0.4%201%200%201.4%200.4%200.4%201%200.4%201.4%200l4.3-4.3%204.2%204.2c0.4%200.4%201%200.4%201.4%200%200.4-0.4%200.4-1%200-1.4l-4.2-4.2%204.3-4.3C22.1%2011.3%2022.1%2010.7%2021.7%2010.3zM16%200C7.2%200%200%207.2%200%2016s7.2%2016%2016%2016c8.8%200%2016-7.2%2016-16S24.8%200%2016%200zM16%2030C8.3%2030%202%2023.7%202%2016S8.3%202%2016%202s14%206.3%2014%2014S23.7%2030%2016%2030z%22%2F%3E%3C%2Fsvg%3E') no-repeat;
+  cursor: pointer;
+  
+  .is-zoomed & {
+    display: block;
+    
+    @media (min-width: 60em) {
+      display: none;
+    }
+  }
+}
+
+.zoomer-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: opacity $transition-duration;
+  opacity: 0;
+  pointer-events: none;
+  background: #fff;
+  
+  &.is-active {
+    opacity: 0.9;
+    pointer-events: auto;
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -3.5em;
+  margin-left: -3.5em;
+}
+
+.width-12\/12 {
+  width: 100%;
+  padding-top: 3.5em;
+  padding-left: 3.5em;
+}
+
+.width-5\/12\@m {
+  @media (min-width: 60em) {
+    width: 41.6666667%;
+  }
+}
+
+.width-7\/12\@m {
+  @media (min-width: 60em) {
+    width: 58.3333333%;
+  }
+}
+
+/* MISC */
+
+.date {
+  text-transform: uppercase;
+  color: gray;
+}
+
+.headline {
+  margin-bottom: 0.85em;
+  padding: 0.2em 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* GENERAL */
+
+body {
+  padding: 2em;
+  line-height: 1.4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1.15;
+}
+
+p + p {
+  margin-top: 1.4em;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
