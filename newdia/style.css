@@ -38,7 +38,7 @@
 }
 @media (min-width: 40em) {
   .card__header {
-    height: 35em;
+    height: 25em;
   }
 }
 @media (min-width: 80em) {
@@ -53,13 +53,13 @@
 }
 
 .card__title {
-  font-size: 1em;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .card__sub-title {
   margin-top: 0.25em;
-  font-size: 0.85em;
+  font-size: 15px;
   font-weight: 400;
   color: #666;
 }
