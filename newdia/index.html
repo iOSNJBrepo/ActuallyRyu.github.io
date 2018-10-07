@@ -1,103 +1,153 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" >
+
 <head>
-<style>
-@font-face { font-family: SFMed; src: url('sf-med.otf'); }
-@font-face { font-family: SFDMed; src: url('sfd-med.otf'); }
-@font-face { font-family: SFSemi; src: url('sf-semi.otf'); }
-body {
-font-family: SFMed, sans-serif;
-margin-top: 40px;
-margin-left: 20px;
-margin-right: 20px;
-margin-bottom: 20px;
-background-color: #fff;
-}
+  <meta charset="UTF-8">
+  <title>iOS 11 App Store Today View Card Animation</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-h5.date {
-color: #96969B;
-margin-bottom: -25px;
-font-weight: 500;
-}
+  
+      <link rel="stylesheet" href="style.css">
 
-h1.cydia {
-font-size: 28pt;
-font-family: SFSemi, sans-serif;
-font-weight: 500;
-margin-bottom: 5px;
-color: #000;
-}
-
-div.card {
-	height: 500px;
-	background-color:#CCC;
-	border-radius: 30px 30px 30px 30px;
-	box-shadow: 0px 0px 20px 0px #CCC;
-	background: linear-gradient(-45deg, #FF8EF0, #88B7E1);
-	
-	margin-bottom: 30px;
-}
-
-img.cardimg {
-	height: 100%;
-	width: 100%;
-	border-radius: 30px;
-	-o-object-fit: cover;
-	object-fit: cover;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-</style>
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Cydia</title>
+  
 </head>
-<body onload="getVersion()">
-<h5 class="date" id="finaldate"></h5>
-<h1 class="cydia">Cydia</h1><br>
-<div class="card">
-<a href="cydia://package/com.macciti.lotus" target="_blank"><img src="https://i.imgur.com/Yq6ryxd.jpg" class="cardimg"/></a>
+
+<body>
+
+  <p class="date">Sunday, 10. September</p>
+<h1 class="headline">Today</h1>
+<div class="grid">
+  <div class="width-12/12 width-7/12@m">
+    <div class="card" id="thing">
+      <div class="card__header" style="background-image: url('http://lorempixel.com/960/700/city/9');">
+        <div class="card__caption">
+          <h2 class="card__title">Golden Gate Bridge</h2>
+          <h3 class="card__sub-title">Lorem Ipsum dolor sit.</h3>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__text">
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <button class="card__close">Close</button>
+    </div>
+  </div>
+  
+  <div class="width-12/12 width-5/12@m">
+    <div class="card" id="thing">
+      <div class="card__header" style="background-image: url('http://lorempixel.com/960/700/sports/5');">
+        <div class="card__caption">
+          <h2 class="card__title">Yeah!</h2>
+          <h3 class="card__sub-title">Lorem Ipsum dolor sit.</h3>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__text">
+          <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <button class="card__close">Close</button>
+    </div>
+  </div>
+  
+  <div class="width-12/12 width-5/12@m">
+    <div class="card" id="thing">
+      <div class="card__header" style="background-image: url('http://lorempixel.com/960/700/animals/6');">
+        <div class="card__caption">
+          <h2 class="card__title">Lorem Ipsum</h2>
+          <h3 class="card__sub-title">Lorem Ipsum dolor sit.</h3>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__text">
+          <p>Diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <button class="card__close">Close</button>
+    </div>
+  </div>
+  
+  <div class="width-12/12 width-7/12@m">
+    <div class="card" id="thing">
+      <div class="card__header" style="background-image: url('http://lorempixel.com/960/700/technics/1');">
+        <div class="card__caption">
+          <h2 class="card__title">Lorem Ipsum</h2>
+          <h3 class="card__sub-title">Lorem Ipsum dolor sit.</h3>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__text">
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <button class="card__close">Close</button>
+    </div>
+  </div>
+  
+  <div class="width-12/12 width-7/12@m">
+    <div class="card" id="thing">
+      <div class="card__header" style="background-image: url('http://lorempixel.com/960/700/cats/1');">
+        <div class="card__caption">
+          <h2 class="card__title">Lorem Ipsum</h2>
+          <h3 class="card__sub-title">Lorem Ipsum dolor sit.</h3>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__text">
+          <p>Ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <button class="card__close">Close</button>
+    </div>
+  </div>
+  
+  <div class="width-12/12 width-5/12@m">
+    <div class="card" id="thing">
+      <div class="card__header" style="background-image: url('http://lorempixel.com/960/700/business/7');">
+        <div class="card__caption">
+          <h2 class="card__title">Lorem Ipsum</h2>
+          <h3 class="card__sub-title">Lorem Ipsum dolor sit.</h3>
+        </div>
+      </div>
+      <div class="card__body">
+        <div class="card__text">
+          <p>Sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <button class="card__close">Close</button>
+    </div>
+  </div>
 </div>
-<div class="card">
-<a href="cydia://package/com.laughingquoll.noctisxi" target="_blank"><img src="noctisthumb.png" class="cardimg"/></a>
-</div>
-<div class="card">
-<a href="cydia://package/com.tigisoftware.filza" target="_blank"><img src="filzathumb.png" class="cardimg"/></a>
-</div>
 
-<script>
-function getToday() {
-    var day = new Date();
-    var weekday = new Array(7);
-    weekday[0] = "SUNDAY";
-    weekday[1] = "MONDAY";
-    weekday[2] = "TUESDAY";
-    weekday[3] = "WEDNESDAY";
-    weekday[4] = "THURSDAY";
-    weekday[5] = "FRIDAY";
-    weekday[6] = "SATURDAY";
+<div class="zoomer-overlay"></div>
+  
+  
 
-		var month = new Array();
-    month[0] = "JANUARY";
-    month[1] = "FEBRUARY";
-    month[2] = "MARCH";
-    month[3] = "APRIL";
-    month[4] = "MAY";
-    month[5] = "JUNE";
-    month[6] = "JULY";
-    month[7] = "AUGUST";
-    month[8] = "SEPTEMBER";
-    month[9] = "OCTOBER";
-    month[10] = "NOVEMBER";
-    month[11] = "DECEMBER";
+    <script  src="index.js"></script>
 
-    var n1 = weekday[day.getDay()];
-		var n2 = day.getDate();
-		var n3 = month[day.getMonth()];
-    document.getElementById("finaldate").innerHTML = n1 + " " + n2 + " " + n3;
-}
 
-window.addEventListener("load", getToday, true);
-</script>
+
+
 </body>
+
 </html>
