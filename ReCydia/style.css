@@ -384,4 +384,18 @@ a:active {
   color:white;
 }
 
+.app-card-5 {
+  text-align: left;
+  margin: 16px;
+  margin-top: 0px;
+  max-width: 375px;
+  background:linear-gradient(90deg, rgba(138,0,0,1) 2%, rgba(255,54,54,1) 61%, rgba(255,255,255,1) 100%);
+  box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+  height: auto;
+  display: block;
+  width: 100%;
+  color:white;
+}
+
 
